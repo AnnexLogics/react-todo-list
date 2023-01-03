@@ -1,7 +1,7 @@
 import React from 'react'
-import Button from './Button'
-import Input from './Input'
-import "./Custom.scss"
+import Button from '../ui/buttons/Button'
+import Input from '../ui/Input-feild/Input'
+import "./Login.scss"
 
 
 export default function Login(props){
@@ -10,7 +10,7 @@ export default function Login(props){
     return(
         <div className='login-page'>
             <div className='card'>
-                <form onSubmit={this.onSubmit} >
+                <form >
                     <Input type="email" name="useremail" label="Email" placeholder="Email"/>
                     <Input type="password" label="Password" name="password" placeholder="Password"/>
                     <Button name="Login" />
