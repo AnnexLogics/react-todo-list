@@ -1,0 +1,24 @@
+.login-page{
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    height: 100%;
+}
+.card{
+    margin-top: 200px;
+    width: 25%;
+    height: 250px;
+    background: rgb(5, 164, 185);
+    border-radius: 20px;
+}
+.card form{
+    padding-top: 48px;
+}
+.inputFeild{
+    margin: 10px;
+}
+.inputFeild input{
+    font-size: 19px;
+    line-height: 2;
+    border-radius: 12px;
+}
